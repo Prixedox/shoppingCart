@@ -1,4 +1,5 @@
 const cartDiv = $('.cart');
-cartDiv.add('p');
-const cartP = $('p');
-cartP.text('hi');
+cartDiv.append('<p>');
+const cartP = $('.cart p');
+cartP.text('hi man');
+console.log(cartP);
